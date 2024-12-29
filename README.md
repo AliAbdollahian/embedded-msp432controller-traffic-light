@@ -3,7 +3,10 @@
 This project controls a traffic light simulation using RGB LEDs on the MSP432 microcontroller. It uses GPIO for LED control and interrupts for button inputs.
 
 ## Features
-- **LED States**: Green (10s), Yellow (5s), Red (5s).
+- **LED States**: 
+  - Green (5s),
+  - Yellow (0.5s),
+  - Red (1.5s).
 - **Button 1 (P1.1)**: Skip the green light.
 - **Button 2 (P1.4)**: Extend the red light by 2 seconds.
 - **Interrupts**: Used for button presses to adjust the light timings.
