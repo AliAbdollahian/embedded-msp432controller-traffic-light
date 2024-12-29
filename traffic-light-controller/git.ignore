@@ -1,5 +1,5 @@
 # Exclude build artifacts
-Object/
+Objects/
 RTE/
 *.o
 *.d
