@@ -1,0 +1,16 @@
+# Exclude build artifacts
+Object/
+RTE/
+*.o
+*.d
+*.axf
+*.lst
+*.map
+
+# Exclude IDE-specific files
+*.uvguix
+*.uvoptx
+EventRecorderStub.scvd
+
+# Exclude listings and temporary files
+Listings/
